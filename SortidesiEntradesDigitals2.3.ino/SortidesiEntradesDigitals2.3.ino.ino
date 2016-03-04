@@ -15,6 +15,7 @@ int displayledPinD = 8;
 int displayledPinE = 9;
 int displayledPinF = 10;
 int displayledPinG = 11;
+int button = 2
 
 //******  Setup  *********************************************************************************
 
@@ -37,10 +38,29 @@ void setup(){
 //******  Loop  **********************************************************************************
 
 void loop (){
-  //DISPLAY 0
+ 
+  
+  }
+  //DISPLAY A
   digitalWrite(displayledPinA, HIGH);
   delay(1000);
   digitalWrite(displayledPinB, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinC, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinD, LOW);
+  delay(1000);
+  digitalWrite(displayledPinE, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinF, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinG, HIGH);
+  delay(1000);
+
+//DISPLAY B
+  digitalWrite(displayledPinA, LOW);
+  delay(1000);
+  digitalWrite(displayledPinB, LOW);
   delay(1000);
   digitalWrite(displayledPinC, HIGH);
   delay(1000);
@@ -50,29 +70,13 @@ void loop (){
   delay(1000);
   digitalWrite(displayledPinF, HIGH);
   delay(1000);
-  digitalWrite(displayledPinG, LOW);
+  digitalWrite(displayledPinG, HIGH);
   delay(1000);
 
-//DISPLAY 1
-  digitalWrite(displayledPinA, LOW);
-  delay(1000);
-  digitalWrite(displayledPinB, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinC, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinD, LOW);
-  delay(1000);
-  digitalWrite(displayledPinE, LOW);
-  delay(1000);
-  digitalWrite(displayledPinF, LOW);
-  delay(1000);
-  digitalWrite(displayledPinG, LOW);
-  delay(1000);
-
-//DISPLAY 2
+//DISPLAY C
   digitalWrite(displayledPinA, HIGH);
   delay(1000);
-  digitalWrite(displayledPinB, HIGH);
+  digitalWrite(displayledPinB, LOW);
   delay(1000);
   digitalWrite(displayledPinC, LOW);
   delay(1000);
@@ -80,13 +84,13 @@ void loop (){
   delay(1000);
   digitalWrite(displayledPinE, HIGH);
   delay(1000);
-  digitalWrite(displayledPinF, LOW);
+  digitalWrite(displayledPinF, HIGH);
   delay(1000);
-  digitalWrite(displayledPinG, HIGH);
+  digitalWrite(displayledPinG, LOW);
   delay(1000);
 
-//DISPLAY 3
-  digitalWrite(displayledPinA, HIGH);
+//DISPLAY D
+  digitalWrite(displayledPinA, LOW);
   delay(1000);
   digitalWrite(displayledPinB, HIGH);
   delay(1000);
@@ -101,44 +105,12 @@ void loop (){
   digitalWrite(displayledPinG, HIGH);
   delay(1000);
 
-//DISPLAY 4
-  digitalWrite(displayledPinA, LOW);
-  delay(1000);
-  digitalWrite(displayledPinB, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinC, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinD, LOW);
-  delay(1000);
-  digitalWrite(displayledPinE, LOW);
-  delay(1000);
-  digitalWrite(displayledPinF, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinG, HIGH);
-  delay(1000);
-
-//DISPLAY 5
+//DISPLAY E
   digitalWrite(displayledPinA, HIGH);
   delay(1000);
   digitalWrite(displayledPinB, LOW);
   delay(1000);
-  digitalWrite(displayledPinC, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinD, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinE, LOW);
-  delay(1000);
-  digitalWrite(displayledPinF, HIGH);
-  delay(1000);
-  digitalWrite(displayledPinG, HIGH);
-  delay(1000);
-
-  //DISPLAY 6
-  digitalWrite(displayledPinA, LOW);
-  delay(1000);
-  digitalWrite(displayledPinB, LOW);
-  delay(1000);
-  digitalWrite(displayledPinC, HIGH);
+  digitalWrite(displayledPinC, LOW);
   delay(1000);
   digitalWrite(displayledPinD, HIGH);
   delay(1000);
@@ -149,8 +121,40 @@ void loop (){
   digitalWrite(displayledPinG, HIGH);
   delay(1000);
 
-   //DISPLAY 7
+//DISPLAY F
   digitalWrite(displayledPinA, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinB, LOW);
+  delay(1000);
+  digitalWrite(displayledPinC, LOW);
+  delay(1000);
+  digitalWrite(displayledPinD, LOW);
+  delay(1000);
+  digitalWrite(displayledPinE, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinF, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinG, HIGH);
+  delay(1000);
+
+  //DISPLAY G
+  digitalWrite(displayledPinA, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinB, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinC, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinD, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinE, LOW);
+  delay(1000);
+  digitalWrite(displayledPinF, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinG, HIGH);
+  delay(1000);
+
+   //DISPLAY H
+  digitalWrite(displayledPinA, LOW);
   delay(1000);
   digitalWrite(displayledPinB, HIGH);
   delay(1000);
@@ -158,21 +162,53 @@ void loop (){
   delay(1000);
   digitalWrite(displayledPinD, LOW);
   delay(1000);
-  digitalWrite(displayledPinE, LOW);
+  digitalWrite(displayledPinE, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinF, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinG, HIGH);
+  delay(1000);
+
+   //DISPLAY I
+  digitalWrite(displayledPinA, LOW);
+  delay(1000);
+  digitalWrite(displayledPinB, LOW);
+  delay(1000);
+  digitalWrite(displayledPinC, LOW);
+  delay(1000);
+  digitalWrite(displayledPinD, LOW);
+  delay(1000);
+  digitalWrite(displayledPinE, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinF, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinG, LOW);
+  delay(1000);
+
+   //DISPLAY J
+  digitalWrite(displayledPinA, LOW);
+  delay(1000);
+  digitalWrite(displayledPinB, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinC, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinD, HIGH);
+  delay(1000);
+  digitalWrite(displayledPinE, HIGH);
   delay(1000);
   digitalWrite(displayledPinF, LOW);
   delay(1000);
   digitalWrite(displayledPinG, LOW);
   delay(1000);
 
-   //DISPLAY 8
-  digitalWrite(displayledPinA, HIGH);
+   //DISPLAY K
+  digitalWrite(displayledPinA, LOW);
   delay(1000);
   digitalWrite(displayledPinB, HIGH);
   delay(1000);
   digitalWrite(displayledPinC, HIGH);
   delay(1000);
-  digitalWrite(displayledPinD, HIGH);
+  digitalWrite(displayledPinD, LOW);
   delay(1000);
   digitalWrite(displayledPinE, HIGH);
   delay(1000);
@@ -181,21 +217,24 @@ void loop (){
   digitalWrite(displayledPinG, HIGH);
   delay(1000);
 
-   //DISPLAY 9
-  digitalWrite(displayledPinA, HIGH);
+  //DISPLAY L
+  digitalWrite(displayledPinA, LOW);
   delay(1000);
-  digitalWrite(displayledPinB, HIGH);
+  digitalWrite(displayledPinB, LOW);
   delay(1000);
-  digitalWrite(displayledPinC, HIGH);
+  digitalWrite(displayledPinC, LOW);
   delay(1000);
-  digitalWrite(displayledPinD, LOW);
+  digitalWrite(displayledPinD, HIGH);
   delay(1000);
-  digitalWrite(displayledPinE, LOW);
+  digitalWrite(displayledPinE, HIGH);
   delay(1000);
   digitalWrite(displayledPinF, HIGH);
   delay(1000);
-  digitalWrite(displayledPinG, HIGH);
+  digitalWrite(displayledPinG, LOW);
   delay(1000);
+
+  
+  
 
 
 
