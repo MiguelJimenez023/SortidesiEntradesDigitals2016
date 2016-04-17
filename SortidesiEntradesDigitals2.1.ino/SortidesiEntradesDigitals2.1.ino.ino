@@ -1,6 +1,6 @@
 /*************************************************************************************************
 **                                                                                              **
-**                              Descripció del programa                                         **
+**                              DescripciÃ³ del programa                                         **
 **                                                                                              **
 *************************************************************************************************/
 
@@ -15,12 +15,12 @@ int displayledPinD = 8;
 int displayledPinE = 9;
 int displayledPinF = 10;
 int displayledPinG = 11;
-int button = 2
+int button = 2;
 
 //******  Setup  *********************************************************************************
 
 void setup(){
-  {
+  
     pinMode(displayledPinA, OUTPUT);
     pinMode(displayledPinB, OUTPUT);
     pinMode(displayledPinC, OUTPUT);
@@ -29,7 +29,7 @@ void setup(){
     pinMode(displayledPinF, OUTPUT);
     pinMode(displayledPinG, OUTPUT);
       
-  }
+  
   
 }
 
@@ -40,7 +40,7 @@ void setup(){
 void loop (){
  
   
-  }
+  
   //DISPLAY 0
   digitalWrite(displayledPinA, HIGH);
   delay(1000);
@@ -199,11 +199,8 @@ void loop (){
   digitalWrite(displayledPinF, HIGH);
   delay(1000);
   digitalWrite(displayledPinG, HIGH);
-  delay(1000);
+  delay (1000);
 
-
-
-
-
-  
+ 
 }
+

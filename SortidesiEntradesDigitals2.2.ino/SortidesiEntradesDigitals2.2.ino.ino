@@ -15,7 +15,7 @@ int displayledPinD = 8;
 int displayledPinE = 9;
 int displayledPinF = 10;
 int displayledPinG = 11;
-int button = 2
+int button = 2;
 
 //******  Setup  *********************************************************************************
 
